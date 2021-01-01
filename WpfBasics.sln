@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBasics", "WpfBasics.csproj", "{90FB7138-6ED1-46E6-A704-014DF70EB5A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBasics", "WpfBasics\WpfBasics.csproj", "{90FB7138-6ED1-46E6-A704-014DF70EB5A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTreeView", "WpfTreeView\WpfTreeView.csproj", "{FF3912CB-9C00-4147-8F2A-5FFEA392FBCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{EC8C9723-9086-40CB-B24A-22CB346C1185}"
+	ProjectSection(SolutionItems) = preProject
+		Content\construction.png = Content\construction.png
+		Content\drive.png = Content\drive.png
+		Content\file.png = Content\file.png
+		Content\folder-closed.png = Content\folder-closed.png
+		Content\folder-open.png = Content\folder-open.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +26,10 @@ Global
 		{90FB7138-6ED1-46E6-A704-014DF70EB5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90FB7138-6ED1-46E6-A704-014DF70EB5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90FB7138-6ED1-46E6-A704-014DF70EB5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF3912CB-9C00-4147-8F2A-5FFEA392FBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3912CB-9C00-4147-8F2A-5FFEA392FBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3912CB-9C00-4147-8F2A-5FFEA392FBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3912CB-9C00-4147-8F2A-5FFEA392FBCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

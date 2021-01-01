@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfBasics"
         mc:Ignorable="d"
         Loaded="Window_Loaded"
-        Icon=".\Content\construction.png"
+        Icon="..\Content\construction.png"
         Title="Wpf Basics" Height="800" Width="400">
 
   <Border Padding="10">
