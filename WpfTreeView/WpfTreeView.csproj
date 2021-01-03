@@ -63,6 +63,13 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Directory\Data\DirectoryItem.cs" />
+    <Compile Include="Directory\Data\DirectoryItemType.cs" />
+    <Compile Include="Directory\DirectoryStructure.cs" />
+    <Compile Include="Directory\ViewModels\Base\BaseViewModel.cs" />
+    <Compile Include="Directory\ViewModels\DirectoryItemViewModel.cs" />
+    <Compile Include="Directory\ViewModels\Base\RelayCommand.cs" />
+    <Compile Include="Directory\ViewModels\DirectoryStructureViewModel.cs" />
     <Compile Include="HeaderToImageConverter.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -112,6 +119,11 @@
       <Link>Images\folder-open.png</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="PropertyChanged.Fody">
+      <Version>2.6.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
